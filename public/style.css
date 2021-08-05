@@ -1,0 +1,185 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background: url(https://st3.depositphotos.com/10953546/14866/v/600/depositphotos_148660113-stock-illustration-technology-social-media-network-link.jpg);
+}
+
+.Container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+}
+
+#title {
+  color: black;
+  font-family: sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.upchat {
+  display: flex;
+  height: 800px;
+}
+
+.botchat {
+  align-items: center;
+  border-top: 1px black solid;
+  display: flex;
+  flex: 1;
+  height: 100%;
+  justify-content: center;
+  width: 100vw;
+}
+
+.leftPart {
+  display: flex;
+  flex-direction: column;
+  height: 800px;
+  width: 40%;
+}
+
+.leftContent {
+  background-color: rgb(211, 211, 211);
+  border-radius: 30px;
+  box-shadow: 5px 5px 5px black;
+  height: 100%;
+  margin: 50px;
+}
+
+.rightPart {
+  background-color: rgb(211, 211, 211);
+  border-radius: 30px;
+  box-shadow: 5px 5px 5px black;
+  display: flex;
+
+  /* flex: 1; */
+  height: 700px;
+  margin: 50px;
+}
+
+.messagesContainer {
+  color: black;
+  font-size: large;
+  font-weight: 1000;
+  height: 100%;
+  width: 100%;
+}
+
+.messagesContainer li {
+  background-color: rgb(223, 209, 209);
+  border-radius: 30px;
+  margin-top: 10px;
+  padding: 20px;
+}
+
+.nicknameBox {
+  align-items: center;
+  display: flex;
+  height: 200px;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.usuariosOnline {
+  height: 100%;
+  text-align: center;
+}
+
+.listausuarios {
+  list-style: none;
+}
+
+.listausuarios li {
+  color: black;
+  font-family: monospace;
+  font-size: 20px;
+  list-style: none;
+  text-align: start;
+  transition: 0.3s ease all;
+}
+
+.listausuarios li:hover {
+  opacity: 0.5;
+}
+
+.username {
+  align-items: center;
+  border: none;
+  border-radius: 15px;
+  display: flex;
+  font-size: 15px;
+  font-weight: 700;
+  height: 50px;
+  justify-content: center;
+  margin-left: 15px;
+  outline: none;
+  text-align: center;
+  width: 40%;
+}
+
+.saveuser {
+  align-items: center;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  display: flex;
+  flex: 1;
+  font-size: 15px;
+  font-weight: 700;
+  height: 50px;
+  justify-content: center;
+  margin-left: 20px;
+  margin-right: 15px;
+  outline: none;
+  text-align: center;
+}
+
+.saveuser:hover {
+  background-color: greenyellow;
+}
+
+.messageForm {
+  display: flex;
+  height: 100px;
+  width: inherit;
+}
+
+.textinput {
+  align-items: center;
+  border: 0;
+  border-radius: 30px;
+  display: flex;
+  font-size: large;
+  height: inherit;
+  justify-content: center;
+  margin: 0 15px;
+  outline: 0;
+  text-align: center;
+  width: 70%;
+}
+
+.textinput input {
+  height: 50%;
+  width: 100%;
+}
+
+.sendmessage {
+  border: 0;
+  border-radius: 30px;
+  cursor: pointer;
+  flex: 1;
+  font-size: large;
+  margin-right: 15px;
+  outline: 0;
+}
+
+.sendmessage:hover {
+  background-color: cornflowerblue;
+}
